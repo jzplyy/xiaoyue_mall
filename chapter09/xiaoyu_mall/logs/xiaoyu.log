@@ -1,0 +1,64 @@
+INFO 2019-11-13 18:17:05,622 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-13 18:17:14,234 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-13 18:18:37,779 autoreload 213 E:\01_django_code\chapter09\xiaoyu_mall\xiaoyu_mall\settings\dev.py changed, reloading.
+INFO 2019-11-13 18:18:39,277 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-13 18:18:49,915 autoreload 213 E:\01_django_code\chapter09\xiaoyu_mall\xiaoyu_mall\settings\dev.py changed, reloading.
+INFO 2019-11-13 18:18:51,378 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-13 18:19:02,088 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-13 18:19:02,131 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+WARNING 2019-11-13 18:19:02,224 log 228 Not Found: /favicon.ico
+WARNING 2019-11-13 18:19:02,226 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1977
+INFO 2019-11-13 18:19:07,365 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 304 0
+INFO 2019-11-13 18:48:13,289 autoreload 213 E:\01_django_code\chapter09\xiaoyu_mall\xiaoyu_mall\settings\dev.py changed, reloading.
+INFO 2019-11-13 18:48:15,414 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-13 18:50:00,676 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-14 11:30:32,338 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-14 11:30:45,287 autoreload 213 E:\01_django_code\chapter09\xiaoyu_mall\xiaoyu_mall\apps\contents\views.py changed, reloading.
+INFO 2019-11-14 11:30:46,908 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-14 11:30:50,510 autoreload 213 E:\01_django_code\chapter09\xiaoyu_mall\xiaoyu_mall\apps\contents\views.py changed, reloading.
+INFO 2019-11-14 11:30:52,019 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-28 14:25:02,905 autoreload 586 Watching for file changes with StatReloader
+INFO 2019-11-28 14:25:06,138 basehttp 154 "GET / HTTP/1.1" 200 39137
+INFO 2019-11-28 14:25:06,303 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2019-11-28 14:25:06,315 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2019-11-28 14:25:06,351 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2019-11-28 14:25:06,370 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2019-11-28 14:25:06,446 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2019-11-28 14:25:06,477 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2019-11-28 14:25:06,488 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2019-11-28 14:25:06,505 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2019-11-28 14:25:06,505 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2019-11-28 14:25:06,511 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2019-11-28 14:25:06,517 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2019-11-28 14:25:06,519 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2019-11-28 14:25:06,523 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2020-11-05 09:22:22,931 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-11-05 09:24:44,915 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-11-05 09:24:55,235 basehttp 154 "GET / HTTP/1.1" 200 39137
+INFO 2020-11-05 09:24:55,309 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2020-11-05 09:24:55,331 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2020-11-05 09:24:55,356 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2020-11-05 09:24:55,356 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-11-05 09:24:55,371 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-11-05 09:24:55,372 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-11-05 09:24:55,393 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2020-11-05 09:24:55,402 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2020-11-05 09:24:55,434 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 200 12489
+INFO 2020-11-05 09:24:55,439 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2020-11-05 09:24:55,439 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2020-11-05 09:24:55,463 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2020-11-05 09:24:55,478 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2020-11-05 09:24:55,482 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2020-11-05 09:24:55,489 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2020-11-05 09:24:55,489 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2020-11-05 09:24:55,498 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2020-11-05 09:24:55,501 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2020-11-05 09:24:55,515 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2020-11-05 09:24:55,517 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2020-11-05 09:24:55,530 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2020-11-05 09:24:55,550 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2020-11-05 09:24:55,551 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2020-11-05 09:24:55,552 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2020-11-05 09:24:55,562 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2020-11-05 09:24:55,948 log 228 Not Found: /favicon.ico
+WARNING 2020-11-05 09:24:55,949 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2138

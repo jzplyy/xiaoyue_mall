@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<div class="index">
+    {% if user.is_authenticated %}
+        {{ current_time }}
+        欢迎您：<em>{{ user.username }}</em>
+        <span>|</span>
+        <a href="{% url 'auth_app:logout' %}" class="quit">退出</a>
+        <span>|</span>
+        <a href="{% url 'auth_app:info' %}">用户中心</a>
+    {% else %}
+        <a href="{% url 'auth_app:login' %}">登录</a>
+    {% endif %}
+</div>
+
+
+</body>
+</html>

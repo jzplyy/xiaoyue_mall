@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+</head>
+<body>
+<div>
+    <table id="myTable" cellpadding="1" cellspacing="0" border="1"
+            style="width:100%;max-width: 100%;margin-bottom: 20px ">
+        <caption align="top" style="font-size: 26px">商品列表</caption>
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>名字</th>
+            <th>价格</th>
+            <th>库存</th>
+            <th>销量</th>
+            <th>管理</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in goods %}
+        <tr align="center">
+            <td>{{ forloop.counter }}</td>
+            <td>{{ row.name }}</td>
+            <td>{{ row.price }}</td>
+            <td>{{ row.stock }}</td>
+            <td>{{ row.sales }}</td>
+            <td>
+                <a href="goods/{{row.id}}">删除</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+</div>
+<div>
+    {#                            表单一：添加                              #}
+    <form method="post" action="/" cellpadding="1" cellspacing="0"
+                    border="1">
+        {% csrf_token %}
+        <input type="submit" value="添加">
+        商品：<input type="text" name="good_name">
+        价格：<input type="text" name="good_price">
+        库存：<input type="text" name="good_stock">
+        销量：<input type="text" name="good_sales">
+    </form>
+</div>
+<div>
+    {#                            表单二：修改                              #}
+    <form method="post" action="goods/" cellpadding="1" cellspacing="0"
+                     border="1">
+        {% csrf_token %}
+        <input type="submit" value="修改">
+        序号：<input type="text" name="good_num">
+        商品：<input type="text" name="good_name">
+        价格：<input type="text" name="good_price">
+        库存：<input type="text" name="good_stock">
+        销量：<input type="text" name="good_sales">
+    </form>
+</div>
+</body>
+</html>

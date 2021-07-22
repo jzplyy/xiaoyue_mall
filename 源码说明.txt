@@ -1,0 +1,15 @@
+请阅读以下几点说明事项：
+
+1、 第8章源码主要是根据身份验证系统做的一个简单案例，希望通过这个案例帮助学生更好地理解身份验证系统的使用。
+
+2、 在开发小鱼商城项目时，教师或学生需要填写自己的开发信息，比如容联云通讯开发信息，邮箱验证信息，以及对接支付宝信息。教师或学生可按照教材的内容逐步实现。
+
+3、 第14章生成私钥的命令如下：
+OpenSSL> genrsa -out app_private_key.pem  2048（注意，2048前面至少有2个空格） 
+
+4、 在第14章中，由于Python对接支付宝的api进行了更新，导致教材中的支付功能的代码报错，建议使用如下代码替换读取私钥与公钥的代码：
+app_private_key_string=open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "keys/app_private_key.pem")).read(),
+alipay_public_key_string=open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "keys/alipay_public_key.pem")).read(),
+大家也可以参照第14章的源代码进行替换。
+
+
